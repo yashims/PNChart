@@ -24,6 +24,7 @@ typedef NSString *(^PNYLabelFormatter)(CGFloat yLabelValue);
  * Draws the chart in an animated fashion.
  */
 - (void)strokeChart;
+- (void)setYValues:(NSArray *)yValues;
 
 @property (nonatomic) NSArray *xLabels;
 @property (nonatomic) NSArray *yLabels;
